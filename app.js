@@ -51,6 +51,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/categories', categoriesRouter);
 app.use('/championships', championshipsRouter);
+app.use('/customers', customersRouter);
 app.use('/hotel', hotelRouter);
 app.use('/products', productsRouter);
 app.use('/restaurant', restaurantRouter);
