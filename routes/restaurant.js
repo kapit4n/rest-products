@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-const dishessList = [
+const dishesList = [
   {
     id: 1, name: 'Spicy Honey-Brushed Chicken Thighs',
     img: "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-image.myrecipes.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fmedium_2x%2Fpublic%2Fspicy-honey-brushed-chicken-thighs-ck.jpg%3Fitok%3Dx1uxdRw3&w=950&h=713&c=sc&poi=face&q=85",
