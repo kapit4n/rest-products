@@ -44,7 +44,7 @@ let categories = [
             name: "Aubergine",
             price: 25,
             quantity: 80,
-            img: "https://www.zoomsearchengine.com/zoom/demos/fruitshop/images/aubergine_-_eggplant.jpg",
+            img: "https://www.lidl-recipes.ie/var/lidl-recipes/storage/images/lidl-recipes.ie/recipes/aubergine-curry/1454141-1-eng-IE/AUBERGINE-CURRY.jpg",
             description: "Eggplant (US), aubergine (UK), or brinjal (South Asia and South Africa) is a plant species in the nightshade family Solanaceae, Solanum melongena, grown for its often purple edible fruit. ... As a member of the genus Solanum, it is related to the tomato and the potato."
           },
           {
