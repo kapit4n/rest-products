@@ -33,6 +33,29 @@ let categories = [
           },
 
         ]
+      },
+      {
+        id: 2,
+        name: "Vegetables",
+        img: "https://cyfsa.blob.core.windows.net/live/Newsletters/Jazz-up-your-veg.jpg",
+        products: [
+          {
+            id: 1,
+            name: "Aubergine",
+            price: 25,
+            quantity: 80,
+            img: "https://www.zoomsearchengine.com/zoom/demos/fruitshop/images/aubergine_-_eggplant.jpg",
+            description: "Eggplant (US), aubergine (UK), or brinjal (South Asia and South Africa) is a plant species in the nightshade family Solanaceae, Solanum melongena, grown for its often purple edible fruit. ... As a member of the genus Solanum, it is related to the tomato and the potato."
+          },
+          {
+            id: 2,
+            name: "Broccoflower",
+            price: 30,
+            quantity: 38,
+            img: "https://veggiesinfo.com/wp-content/uploads/2016/09/Broccoflower-600x372.jpg",
+            description: "Broccoflower refers to either of two edible plants of the species Brassica oleracea with light green heads. ... Broccoli and cauliflower are different cultivars of the same species, and as such are fully cross compatible by hand pollination or natural pollinators."
+          }
+        ]
       }
     ];
 
