@@ -32,4 +32,15 @@ router.get('/', function(req, res, next) {
   res.send(categories);
 });
 
+router.get('/:catId', function(req, res, next) {
+  let cat = categories.find(p => p.id == req.params['catId']);
+  res.send(cat)
+})
+
+router.get('/:catId/products/:prodId', function(req, res, next) {
+  let cat = categories.find(p => p.id == req.params['catId']);
+  let prod = cat.products.find(p => p.id == req.params['prodId']);
+  res.send(prod)
+})
+
 module.exports = router;
